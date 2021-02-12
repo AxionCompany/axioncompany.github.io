@@ -1,11 +1,28 @@
-import { Navbar as Nav } from './styles.js';
+import { Navbar as Nav, NavLinks} from './styles.js';
 
 
 export default function Navbar() {
     return (
         <Nav>
             <img src="/logo.svg" alt="Axion Open Source" />
-            <h1>Open Source</h1>
+            <NavLinks>
+                <li>
+                    Início
+                </li>
+                <li>
+                    Projetos
+                </li>
+                <li>
+                    Time
+                </li>
+                <li>
+                    Sobre
+                </li>
+                <li>
+                    Axion Jobs
+                </li>
+            </NavLinks>
+
         </Nav>
     );
 }
