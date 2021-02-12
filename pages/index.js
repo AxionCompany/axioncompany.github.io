@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Fragment } from 'react';
+import Cover from '../components/cover';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import '../styles/Home.module.css'
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Navbar />
+      <Cover /> 
       <Footer />
     </Fragment>
   )

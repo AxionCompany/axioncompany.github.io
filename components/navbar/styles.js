@@ -5,14 +5,13 @@ export const Navbar = styled.nav`
     position: fixed;
     top: 0;
     height: auto;
-    background-color: #2e2e2e;
     color: #fff;
     display: flex;
     flex-direction: row;
     padding: 30px 8% 0 8%;
     align-items: center;
     justify-content: space-between;
-
+    z-index: 1;
     img {
         height:  40px;
         width: 185px;
