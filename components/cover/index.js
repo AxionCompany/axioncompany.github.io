@@ -13,7 +13,7 @@ export default function Cover() {
                 <p>Somos Open Source</p>
             </Subtitle>
             <Line>
-                <ButtonGroup justifyContent="center">
+                <ButtonGroup style={{marginTop: "50px"}} justifyContent="center">
                     <Button  size="normal" outline="white">CONTRIBUIR</Button>
                     <Button textColor="black" size="normal" bgColor="white">SOBRE A AXION</Button>
                 </ButtonGroup>
