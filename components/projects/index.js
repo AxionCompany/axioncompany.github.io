@@ -1,5 +1,5 @@
 import { Section, Col, Container, Line } from "../../styles/container";
-import { H1, Text } from "../../styles/font";
+import { H2, Text } from "../../styles/font";
 import Repository from "./repository";
 import { AxionProjectImage, ProjectsContainer } from "./styles";
 
@@ -8,12 +8,12 @@ export default function Projects() {
   return (
     <Section>
       <Container style={{ marginBottom: "100px" }}>
-        <H1 style={{ marginBottom: "60px" }}>PROJETOS</H1>
+        <H2 style={{ marginBottom: "60px" }}>PROJETOS</H2>
         <Line>
           <Col col="6">
             <AxionProjectImage
               styled="position: relative; width: 100%"
-              src="https://i.pinimg.com/originals/f0/65/8e/f0658ebc5f872768239cd3ab2f7ac051.jpg"
+              src="https://github.githubassets.com/images/modules/open_graph/github-octocat.png"
               alt="Axion is open source to"
             />
           </Col>

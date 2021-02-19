@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { Fragment } from 'react';
+import About from '../components/about';
+import Contributors from '../components/contributos';
 import Cover from '../components/cover';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
@@ -17,7 +19,8 @@ export default function Home() {
       <Navbar />
       <Cover />
       <Projects /> 
-      <Footer />
+      <Contributors />
+      <About />
     </Fragment>
   )
 }

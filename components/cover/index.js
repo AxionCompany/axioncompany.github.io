@@ -1,3 +1,4 @@
+import { FaExternalLinkAlt } from 'react-icons/fa';
 import { Container, Line } from '../../styles/container';
 import { Button, ButtonGroup } from '../buttons';
 import { NavCover, Subtitle, Title } from './styles';
@@ -14,7 +15,7 @@ export default function Cover() {
             </Subtitle>
             <Line>
                 <ButtonGroup style={{marginTop: "50px"}} justifyContent="center">
-                    <Button  size="normal" outline="white">CONTRIBUIR</Button>
+                    <Button  size="normal" outline="white">CONTRIBUIR <FaExternalLinkAlt/></Button>
                     <Button textColor="black" size="normal" bgColor="white">SOBRE A AXION</Button>
                 </ButtonGroup>
             </Line>
