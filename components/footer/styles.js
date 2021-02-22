@@ -1,16 +1,23 @@
 import styled from 'styled-components';
 
 export const Footer = styled.footer`
-    background: #2e2e2e;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    height: 200px;
+    height: auto;
     width: 100%;
     color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 0;
+
+    li {
+        list-style: none;
+
+        a {
+            margin: 10px 0;
+        }
+    }
 `;
 
 export const Links = styled.ul`
@@ -22,9 +29,9 @@ export const Links = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: stretch;
-
-    li a {
-        text-decoration: none;
-        color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    li {
+        margin: 10px 0;
     }
 `;
